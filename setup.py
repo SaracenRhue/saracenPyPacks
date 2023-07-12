@@ -8,16 +8,16 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-with open("package.json", "r") as f:
+with open("packages.json", "r") as f:
     packages = json.load(f)
 
-VERSION = '1.0'
+VERSION = '1.2'
 DESCRIPTION = ''
 LONG_DESCRIPTION = ''
 
 # Setting up
 setup(
-    name="saracendb",
+    name="saracenpypacks",
     version=VERSION,
     author="Saracen Rhue",
     author_email="",

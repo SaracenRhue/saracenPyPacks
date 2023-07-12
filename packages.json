@@ -7,7 +7,6 @@
     "setuptools", 
     "wheel", 
     "twine", 
-    "codecs",
     "requests",
     "selenium",
     "beautifulsoup4",
